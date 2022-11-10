@@ -9,7 +9,7 @@
           <component :is="highlight" :hit="item" attribute="name" />
         </div>
         <div class="aa-ItemContentDescription">
-          By <strong>{{ item.brand }}</strong> in
+          Buy <strong>{{ item.brand }}</strong> in
           <strong>{{ item.categories[0] }}</strong>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default {
       event.preventDefault();
       event.stopPropagation();
 
-      console.log('Add to cart');
+      console.log("Add to cart");
     }
 
     return {
